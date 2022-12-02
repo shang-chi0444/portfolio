@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.96);
+  font-family: "Open Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.active {
+  color: white;
+}
+
+@media only screen and (max-width: 1500px) {
+  body {
+    display: flex;
+  }
+}
