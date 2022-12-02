@@ -12,7 +12,7 @@ function Navbar() {
           </Link>
         </li>
         <li className={styles.link}>
-          <Link to="about" smooth={true} duration={800} offset={30}>
+          <Link to="about" smooth={true} duration={800} offset={55}>
             about
           </Link>
         </li>

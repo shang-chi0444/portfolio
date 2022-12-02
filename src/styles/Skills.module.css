@@ -4,7 +4,7 @@
 }
 .heading {
   text-align: center;
-  font-size: 38px;
+  font-size: 32px;
   color: #fff;
   font-weight: 300;
   margin-bottom: 60px;
@@ -14,8 +14,8 @@
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 8fr);
-  align-items: center;
   grid-gap: 100px;
+  align-items: center;
   color: #fff;
 }
 .skill_card {
@@ -29,13 +29,13 @@
 
 .skill_img {
   width: 80px;
-  margin-left: 110px;
-  margin-top: 15px;
+  margin-left: 87px;
+  margin-top: 10px;
   background-color: #1a1a1a;
 }
 .skill_name {
   color: #fff;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 300;
   text-align: center;
   text-transform: capitalize;
@@ -45,50 +45,50 @@
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 .html {
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 130px;
   background-color: #1a1a1a;
   border-radius: 0.75rem;
 }
 .css {
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 130px;
   background-color: #1a1a1a;
   border-radius: 10px;
 }
 .js {
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 130px;
   background-color: #1a1a1a;
   border-radius: 10px;
 }
 .sass {
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 130px;
   background-color: #1a1a1a;
   border-radius: 10px;
 }
 .react {
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 130px;
   background-color: #1a1a1a;
   border-radius: 10px;
 }
 .next {
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 130px;
   background-color: #1a1a1a;
   border-radius: 10px;
 }
 .mui {
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 130px;
   background-color: #1a1a1a;
   border-radius: 10px;
 }
 .tailwind {
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 130px;
   background-color: #1a1a1a;
   border-radius: 10px;
 }
