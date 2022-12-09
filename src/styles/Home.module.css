@@ -32,3 +32,13 @@
     background-position: 200% center;
   }
 }
+
+@media (max-width: 600px) {
+  h1{
+    font-size: 30px;
+  }
+  .home{
+    height: 250px;
+    padding: 0 30px;
+  }
+}

@@ -32,3 +32,17 @@
 .link:hover {
   opacity: 1;
 }
+
+@media (max-width: 600px) {
+  .navbar{
+    height: 70px;
+  }
+  .link {
+    font-size: 15px;
+  }
+  .link_group{
+    list-style: none;
+    display: flex;
+    gap: 1px;
+  }
+}

@@ -18,19 +18,28 @@
   align-items: center;
   color: #fff;
 }
+.skill_container div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .skill_card {
   position: relative;
   transition-duration: 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 1.5;
+  line-height: 2.3;
 }
 
 .skill_img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  object-fit: contain;
   width: 80px;
-  margin-left: 87px;
-  margin-top: 10px;
   background-color: #1a1a1a;
 }
 .skill_name {
@@ -91,4 +100,26 @@
   height: 130px;
   background-color: #1a1a1a;
   border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 22px;
+  }
+
+  .skill_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+  }
+  .skill_img {
+    width: 70px;
+  }
+  .skill_container div{
+    width: 90%;
+  }
 }
